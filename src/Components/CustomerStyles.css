@@ -1,0 +1,117 @@
+.customer{
+    width: 100%;
+    padding:6rem 1rem; 
+    max-width: 1120px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px; 
+}
+
+.custmm{
+
+position: relative;
+width: 322px;
+height: 488px;
+left: 30px;
+top: -550px;
+background: #FAFAF8;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 23.4736px;
+
+}
+
+
+.custmm .img1{
+width: 300px;
+position:relative;
+left: 2%;
+top:3%
+}
+
+.custmm h3{
+width: 231px;
+height: 30px;
+position: relative;
+left: 8%;
+top: 8%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+
+font-size: 17px;
+line-height: 30px;
+letter-spacing: -0.02em;
+color: #323232;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.custmm h5{
+    width: 97.8px;
+    height: 42.52px;
+    position: relative;
+    left: 10%;
+    top: 20%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.2911px;
+    line-height: 21px;
+    
+    color: #293238;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.custmm p{
+
+    width: 300.55px;
+    height: 128.62px;
+    position: relative;
+    left: 9%;
+    top: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.8833px;
+    line-height: 150%;
+    /* or 22px */
+    
+    
+    color: #232527;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.custmm button{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px 97px;
+gap: 10px;
+
+position: relative;
+width: 284px;
+height: 54px;
+left: 15px;
+top: 78px;
+
+
+
+
+border-radius: 18px;
+text-align: center;
+}
